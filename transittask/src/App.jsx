@@ -101,27 +101,36 @@
 // }
 
 // export default App;
-
-import GoogleCalendar from './components/GoogleCalendar';
-import TodoGroceryList from './components/TodoGroceryList';
-import TransitScheduler from './components/TransitScheduler';
+import React from "react";
+import GoogleCalendar from "./components/GoogleCalendar"; // Ensure path is correct
+import TodoGroceryList from "./components/TodoGroceryList"; // Ensure path is correct
+import TransitScheduler from "./components/TransitScheduler"; // Ensure path is correct
+import "./App.css"; // Make sure styling is applied
 
 function App() {
     return (
-        <>
+        <div className="app-container">
             <header>
                 <h1>Welcome to TransiTask</h1>
                 <p>Manage your tasks, transit schedules, and calendar events all in one place!</p>
             </header>
+
             <main>
-            <TodoGroceryList />
-            {/* <GoogleCalendar />  */}
-            <TransitScheduler />
+              <div className="side-by-side-container">
+                  <TodoGroceryList />
+              </div>
+              <div className="scheduler-section">
+                  <TransitScheduler />
+              </div>
+                {/* Uncomment GoogleCalendar once working */}
+                {/* <GoogleCalendar /> */}
+                
             </main>
+
             <footer>
-                <p>Explore TransiTask features and simplify your day!</p>
+                <p>&copy; 2025 TransiTask. Empowering your productivity!</p>
             </footer>
-        </>
+        </div>
     );
 }
 

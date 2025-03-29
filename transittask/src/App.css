@@ -40,7 +40,7 @@
 .read-the-docs {
   color: #888;
 } */
-header {
+/* header {
   text-align: center;
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -56,4 +56,246 @@ footer {
   text-align: center;
   font-size: 12px;
   margin-top: 20px;
+} */
+/* App-wide styling */
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f3e5f5; /* Soft purple background */
+   /* color: #4a148c; /* Deep purple text for headers */
+  */
+/* 
+header {
+  text-align: center;
+  margin: 20px 0;
 }
+
+header h1 {
+  font-size: 36px;
+  color: #6a1b9a; /* Medium purple for the title */
+/* }
+
+header p {
+  font-size: 18px;
+  color: #8e24aa;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #6a1b9a;
+} */ 
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f3e5f5; /* Soft purple background */
+  color: #4a148c; /* Deep purple text */
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #6a1b9a; /* Medium purple for the title */
+}
+
+header p {
+  font-size: 18px;
+  color: #8e24aa;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.side-by-side-container {
+  display: flex;
+  gap: 30px; /* Space between To-Do and Grocery lists */
+  justify-content: center;
+  margin-bottom: 30px; /* Space between this container and Transit Scheduler */
+}
+
+.scheduler-section {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #6a1b9a;
+} */ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f3e5f5; /* Soft purple background */
+  color: #4a148c; /* Deep purple text for headers */
+}
+
+.list-container {
+  display: flex;
+  gap: 30px; /* Space between To-Do and Grocery lists */
+  justify-content: center; /* Centers the lists horizontally */
+  margin-bottom: 30px; /* Space between lists and Transit Scheduler */
+}
+
+.list-box {
+  background-color: #ab47bc; /* Deep purple for the boxes */
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px; /* Fixed width for consistent styling */
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #f3e5f5; /* Light lavender for headings */
+}
+
+input {
+  width: calc(100% - 20px); /* Adjusted width */
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #6a1b9a; /* Border matches theme */
+  margin-bottom: 15px;
+  outline: none;
+}
+
+button {
+  background-color: #6a1b9a; /* Purple button background */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%; /* Button stretches fully */
+}
+
+button:hover {
+  background-color: #4a148c; /* Darker purple on hover */
+  transition: background-color 0.3s ease-in-out;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex; /* Ensures items and buttons are aligned */
+  justify-content: space-between; /* Aligns text and button */
+  align-items: center;
+  background-color: #ba68c8; /* Softer purple for items */
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+
+
+li button {
+  background-color: #8e24aa; /* Purple for the delete button */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 3px 8px; /* Compact padding */
+  font-size: 12px; /* Smaller font size */
+  cursor: pointer;
+  width: auto; /* Adjusts width to fit content */
+  flex-shrink: 0; /* Prevents the button from resizing */
+}
+
+li button:hover {
+  background-color: #7b1fa2; /* Darker shade on hover */
+}
+
+.scheduler-container {
+  background-color: #ab47bc; /* Deep purple box */
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px; /* Matches list box width */
+  margin: 30px auto; /* Centers the scheduler horizontally */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  color: white;
+}
+
+.scheduler-title {
+  text-align: center;
+  font-size: 24px;
+  color: #f3e5f5; /* Light lavender for headings */
+  margin-bottom: 15px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #6a1b9a;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%; /* Full-width button */
+}
+
+button:hover {
+  background-color: #4a148c; /* Darker shade on hover */
+}
+
+p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+h3 {
+  color: #f3e5f5;
+  margin-top: 20px;
+}
+
