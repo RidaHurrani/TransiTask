@@ -1,2 +1,2 @@
-# Study-Buddy
+# TransiTask
 Your Friendly Scheduling Assistant 
