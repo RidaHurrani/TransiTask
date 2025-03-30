@@ -10,6 +10,7 @@ const Legend = () => {
                     <li><span className="legend-icon orange"></span> Gas Stations (Orange)</li>
                     <li><span className="legend-icon blue"></span> Colleges/Universities (Blue)</li>
                     <li><span className="legend-icon purple"></span> Grocery Stores (Purple)</li>
+                    <li><span className="legend-icon green"></span> Hospitals (Green)</li>
                     <li><span className="legend-icon red"></span> Custom Pins (Red)</li>
                 </ul>
             </div>

@@ -757,6 +757,14 @@ const purpleIcon = new L.Icon({
     shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
 });
 
+const greenIcon = new L.Icon({
+    iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png",
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
+});
+
 const userPinIcon = new L.Icon({
     iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png",
     iconSize: [25, 41],
@@ -852,6 +860,14 @@ const Map = () => {
                 <Popup>Conestoga College</Popup>
             </Marker>
 
+            {/* Fixed hospitals (green markers) */}
+            <Marker position={[43.4757, -80.5205]} icon={greenIcon}>
+                <Popup>Grand River Hospital</Popup>
+            </Marker>
+            <Marker position={[43.4515, -80.4958]} icon={greenIcon}>
+                <Popup>St. Mary's General Hospital</Popup>
+            </Marker>
+            
             {/* Fixed Grocery stores (purple markers) */}
             <Marker position={[43.4688, -80.5236]} icon={purpleIcon}>
                 <Popup>Grocery Store 1</Popup>
