@@ -2,30 +2,20 @@
 
 **Your Friendly Scheduling Assistant**
 
-TransiTask is a comprehensive productivity tool tailored for students moving to a new city for college or university. 
-Transitioning to a new environment can be overwhelming, especially when juggling academics, social life, and daily tasks. 
-TransiTask is here to simplify your life, helping you stay organized, manage your time, and settle into your new city with ease.
-
-
-**Overview**
-
-TransiTask is a web application designed to streamline your daily tasks, appointments, and schedules. 
-It's perfect for students who are adjusting to a new city and want to efficiently manage their time while exploring their surroundings. 
-With its intuitive features and user-friendly interface, TransiTask helps students settle into their new surroundings while staying organized and on top of their schedules.
+TransiTask is a versatile web application designed to meet the unique needs of diverse groups living in urban neighborhoods. Whether you're a student or newcomer who has recently moved to the city, an older adult navigating daily life, or anyone adjusting to unfamiliar surroundings, TransiTask offers a seamless way to stay organized, manage your time, and integrate into your environment with confidence. With its intuitive features and user-friendly interface, TransiTask ensures you have the tools needed to thrive in your urban community.
 
 
 **Features**
 
 **- Task Management**
 
-Create, update, and delete tasks to keep track of your academic and personal to-dos.
-Stay organized with a list of everything you need to accomplish, from submitting assignments to running daily errands.
+Create, update, and delete tasks to keep track of your personal tasks.
+Stay organized with a list of everything you need to accomplish, from meeting deadlines to running daily errands.
 
 **- Google Calendar Integration**
 Sync your Google Calendar to view all events and deadlines in one place.
 Get reminders for upcoming tasks and events to ensure you're always prepared and on time.
 Add new events seamlessly, ensuring you're always on top of your schedule.
-Easily keep track of orientation sessions, academic deadlines, and social events.
 
 **- Interactive Calendar**
 Use the built-in calendar to plan your week or month at a glance.
@@ -37,7 +27,7 @@ Keep tabs on essential daily tasks and errands, ensuring nothing is forgotten.
 
 **- Gas Stations and Essential Stops**
 Locate nearby gas stations, grocery stores, and other key spots to simplify daily travel.
-Perfect for students with vehicles who need help finding reliable fuel stations in their new area.
+Perfect for individuals with vehicles who need help finding reliable fuel stations in their new area.
 
 
 
@@ -45,11 +35,11 @@ Perfect for students with vehicles who need help finding reliable fuel stations 
 
 **Finding Essentials** - The app helps you locate groceries, gas stations, and other must-visit places, making it easier to settle into a new city.
 
-**Meal Planning and Errands** - With the grocery list feature, students can plan meals and shop effectively, saving time and avoiding stress.
+**Meal Planning and Errands** - With the grocery list feature, you can plan meals and shop effectively, saving time and avoiding stress.
 
-**Integrating Schedules** - By syncing with Google Calendar, students can consolidate academic, personal, and social commitments in one place for easy reference.
+**Integrating Schedules** - By syncing with Google Calendar, you can consolidate academic, personal, and social commitments in one place for easy reference.
 
-**Stress-Free Adjustments** - TransiTask reduces the anxiety of adapting to a new city by organizing tasks, helping students feel confident and in control.
+**Stress-Free Adjustments** - TransiTask reduces the anxiety of adapting to a new city by organizing tasks, helping people feel confident and in control.
 
 
 
@@ -77,4 +67,4 @@ Navigate to the project directory: **cd TransiTask**
 
 Install the dependencies: **npm install**
 
-Start the application: **npm start**
+Start the application: **npm run dev**
