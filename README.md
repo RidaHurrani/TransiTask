@@ -8,13 +8,16 @@ TransiTask is here to simplify your life, helping you stay organized, manage you
 
 
 **Overview**
+
 TransiTask is a web application designed to streamline your daily tasks, appointments, and schedules. 
 It's perfect for students who are adjusting to a new city and want to efficiently manage their time while exploring their surroundings. 
 With its intuitive features and user-friendly interface, TransiTask helps students settle into their new surroundings while staying organized and on top of their schedules.
 
 
 **Features**
+
 **- Task Management**
+
 Create, update, and delete tasks to keep track of your academic and personal to-dos.
 Stay organized with a list of everything you need to accomplish, from submitting assignments to running daily errands.
 
@@ -64,7 +67,10 @@ Perfect for students with vehicles who need help finding reliable fuel stations 
 **Installation**
 
 Follow these steps to install and run TransiTask locally:
+
 Clone the repository: git clone https: **//github.com/RidaHurrani/TransiTask.git**
+
 Navigate to the project directory: **cd TransiTask**
+
 Install the dependencies: **npm install**
 Start the application: **npm start**
