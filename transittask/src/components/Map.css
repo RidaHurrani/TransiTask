@@ -1,0 +1,50 @@
+.map-container {
+    position: relative;
+}
+
+.legend-container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+.legend-container h4 {
+    margin: 0 0 10px 0;
+}
+
+.legend-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.legend-container li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.legend-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.legend-icon.pink {
+    background-color: pink;
+}
+
+.legend-icon.blue {
+    background-color: blue;
+}
+
+.legend-icon.purple {
+    background-color: purple;
+}

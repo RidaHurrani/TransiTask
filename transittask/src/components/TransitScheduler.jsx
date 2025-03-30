@@ -335,7 +335,7 @@ const TransitScheduler = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [suggestions, setSuggestions] = useState([]);
 
-  const API_KEY = "AIzaSyDH28YHvtvvRzoGgmkXnSP7JfhlmJkxvDk";
+  const API_KEY = "AIzaSyD--rYPOzZ9IeYTpu_pAVdQAWcggEWEj4g";
 
   const fetchTransitData = async () => {
     const url = `https://maps.googleapis.com/maps/api/directions/json?origin=${encodeURIComponent(
