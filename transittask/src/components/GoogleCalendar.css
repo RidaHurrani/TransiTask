@@ -1,0 +1,81 @@
+/* .react-calendar {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+} */
+
+/* Style for today's date */
+/* .react-calendar__tile--now {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+} */
+
+/* Style for selected date */
+/* .react-calendar__tile--active {
+    background-color: #007bff;
+    color: black;
+} */
+
+/* Style for dates with events */
+/* .react-calendar__tile--hasEvent {
+    background-color: #28a745;
+    color: black;
+} */
+
+/* Style for out-of-bounds dates (from adjacent months) */
+/* .react-calendar__tile--neighboringMonth {
+    opacity: 0.5;
+} */
+
+/* Optional: Add hover effect on dates */
+/* .react-calendar__tile:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+} */
+
+
+/* Make all the text on the calendar black */
+.react-calendar {
+    color: black !important;  /* Set text color to black */
+    background-color: white !important;  /* Set background color to white */
+}
+
+/* Make the title (month/year) text black */
+.react-calendar__navigation__label {
+    color: black !important;  /* Set title (month/year) color to black */
+}
+
+/* Ensure the background of each tile is white */
+.react-calendar__tile {
+    background-color: white !important;  /* Set tile background to white */
+    color: black !important;  /* Set text color to black */
+}
+
+/* Make sure today's date (the "now" tile) has black text and a white background */
+.react-calendar__tile--now {
+    background-color: white !important;  /* Set background to white */
+    color: blue !important;  /* Set text color to black */
+    font-weight: bold !important;  /* Optional: Keep today's date bold */
+}
+
+/* For hover effect, set background color to light gray */
+.react-calendar__tile:hover {
+    background-color: #f0f0f0 !important;  /* Light gray background on hover */
+}
+
+/* Set the active tile's background to a different color */
+.react-calendar__tile--active {
+    background-color: #d1e7ff !important;  /* Light blue background for active date */
+    color: black !important;  /* Ensure active tile text is black */
+}
+
+/* Make the arrows (next/prev) black */
+.react-calendar__navigation__arrow {
+    color: black !important;  /* Set arrow color to black */
+}
+
+/* Optional: Change the hover color of the arrows to dark gray */
+.react-calendar__navigation__arrow:hover {
+    color: #555 !important;  /* Darker gray color for arrows on hover */
+}
