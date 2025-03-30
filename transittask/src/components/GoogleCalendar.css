@@ -1,38 +1,3 @@
-/* .react-calendar {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    width: 100%;
-} */
-
-/* Style for today's date */
-/* .react-calendar__tile--now {
-    background-color: #fff;
-    color: #000;
-    font-weight: bold;
-} */
-
-/* Style for selected date */
-/* .react-calendar__tile--active {
-    background-color: #007bff;
-    color: black;
-} */
-
-/* Style for dates with events */
-/* .react-calendar__tile--hasEvent {
-    background-color: #28a745;
-    color: black;
-} */
-
-/* Style for out-of-bounds dates (from adjacent months) */
-/* .react-calendar__tile--neighboringMonth {
-    opacity: 0.5;
-} */
-
-/* Optional: Add hover effect on dates */
-/* .react-calendar__tile:hover {
-    background-color: #f1f1f1;
-    cursor: pointer;
-} */
 
 
 /* Make all the text on the calendar black */
@@ -66,7 +31,7 @@
 
 /* Set the active tile's background to a different color */
 .react-calendar__tile--active {
-    background-color: #d1e7ff !important;  /* Light blue background for active date */
+    background-color: #e1c4fd !important;  /* Light blue background for active date */
     color: black !important;  /* Ensure active tile text is black */
 }
 
