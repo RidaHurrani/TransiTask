@@ -73,4 +73,5 @@ Clone the repository: git clone https: **//github.com/RidaHurrani/TransiTask.git
 Navigate to the project directory: **cd TransiTask**
 
 Install the dependencies: **npm install**
+
 Start the application: **npm start**
