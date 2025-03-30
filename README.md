@@ -1,4 +1,4 @@
-##TransiTask
+#TransiTask
 
 Your Friendly Scheduling Assistant
 
@@ -6,13 +6,13 @@ TransiTask is a comprehensive productivity tool tailored for students moving to 
 Transitioning to a new environment can be overwhelming, especially when juggling academics, social life, and daily tasks. 
 TransiTask is here to simplify your life, helping you stay organized, manage your time, and settle into your new city with ease.
 
-##Overview
+#Overview
 
 TransiTask is a web application designed to streamline your daily tasks, appointments, and schedules. 
 It's perfect for students who are adjusting to a new city and want to efficiently manage their time while exploring their surroundings. 
 With its intuitive features and user-friendly interface, TransiTask helps students settle into their new surroundings while staying organized and on top of their schedules.
 
-##Features
+#Features
 
 - Task Management
 Create, update, and delete tasks to keep track of your academic and personal to-dos.
@@ -36,14 +36,14 @@ Keep tabs on essential daily tasks and errands, ensuring nothing is forgotten.
 Locate nearby gas stations, grocery stores, and other key spots to simplify daily travel.
 Perfect for students with vehicles who need help finding reliable fuel stations in their new area.
 
-##How TransiTask Helps New Students Navigate a New City
+#How TransiTask Helps New Students Navigate a New City
 
 Finding Essentials - The app helps you locate groceries, gas stations, and other must-visit places, making it easier to settle into a new city.
 Meal Planning and Errands - With the grocery list feature, students can plan meals and shop effectively, saving time and avoiding stress.
 Integrating Schedules - By syncing with Google Calendar, students can consolidate academic, personal, and social commitments in one place for easy reference.
 Stress-Free Adjustments - TransiTask reduces the anxiety of adapting to a new city by organizing tasks, helping students feel confident and in control.
 
-##Technologies Used
+#Technologies Used
 
 JavaScript - The primary programming language used.
 React - Front-end library for building a dynamic user interface.
@@ -51,7 +51,7 @@ Google OAuth - For secure integration with Google Calendar.
 CSS - For styling the application and maintaining a cohesive visual theme.
 HTML - For the structure and layout of web pages.
 
-##Installation
+#Installation
 
 Follow these steps to install and run TransiTask locally:
 Clone the repository: git clone https: //github.com/RidaHurrani/TransiTask.git
