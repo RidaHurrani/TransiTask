@@ -1,19 +1,17 @@
 **TransiTask**
-
 **Your Friendly Scheduling Assistant**
-
 TransiTask is a comprehensive productivity tool tailored for students moving to a new city for college or university. 
 Transitioning to a new environment can be overwhelming, especially when juggling academics, social life, and daily tasks. 
 TransiTask is here to simplify your life, helping you stay organized, manage your time, and settle into your new city with ease.
 
-**Overview**
 
+**Overview**
 TransiTask is a web application designed to streamline your daily tasks, appointments, and schedules. 
 It's perfect for students who are adjusting to a new city and want to efficiently manage their time while exploring their surroundings. 
 With its intuitive features and user-friendly interface, TransiTask helps students settle into their new surroundings while staying organized and on top of their schedules.
 
-**Features**
 
+**Features**
 **- Task Management**
 Create, update, and delete tasks to keep track of your academic and personal to-dos.
 Stay organized with a list of everything you need to accomplish, from submitting assignments to running daily errands.
@@ -36,6 +34,7 @@ Keep tabs on essential daily tasks and errands, ensuring nothing is forgotten.
 Locate nearby gas stations, grocery stores, and other key spots to simplify daily travel.
 Perfect for students with vehicles who need help finding reliable fuel stations in their new area.
 
+
 **How TransiTask Helps New Students Navigate a New City**
 
 **Finding Essentials** - The app helps you locate groceries, gas stations, and other must-visit places, making it easier to settle into a new city.
@@ -45,6 +44,7 @@ Perfect for students with vehicles who need help finding reliable fuel stations 
 **Integrating Schedules** - By syncing with Google Calendar, students can consolidate academic, personal, and social commitments in one place for easy reference.
 
 **Stress-Free Adjustments** - TransiTask reduces the anxiety of adapting to a new city by organizing tasks, helping students feel confident and in control.
+
 
 **Technologies Used**
 
@@ -57,6 +57,7 @@ Perfect for students with vehicles who need help finding reliable fuel stations 
 **CSS** - For styling the application and maintaining a cohesive visual theme.
 
 **HTML** - For the structure and layout of web pages.
+
 
 **Installation**
 
