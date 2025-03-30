@@ -40,6 +40,7 @@ Locate nearby gas stations, grocery stores, and other key spots to simplify dail
 Perfect for students with vehicles who need help finding reliable fuel stations in their new area.
 
 
+
 **How TransiTask Helps New Students Navigate a New City**
 
 **Finding Essentials** - The app helps you locate groceries, gas stations, and other must-visit places, making it easier to settle into a new city.
@@ -49,6 +50,7 @@ Perfect for students with vehicles who need help finding reliable fuel stations 
 **Integrating Schedules** - By syncing with Google Calendar, students can consolidate academic, personal, and social commitments in one place for easy reference.
 
 **Stress-Free Adjustments** - TransiTask reduces the anxiety of adapting to a new city by organizing tasks, helping students feel confident and in control.
+
 
 
 **Technologies Used**
@@ -62,6 +64,7 @@ Perfect for students with vehicles who need help finding reliable fuel stations 
 **CSS** - For styling the application and maintaining a cohesive visual theme.
 
 **HTML** - For the structure and layout of web pages.
+
 
 
 **Installation**
