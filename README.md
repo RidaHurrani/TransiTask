@@ -1,5 +1,7 @@
 **TransiTask**
+
 **Your Friendly Scheduling Assistant**
+
 TransiTask is a comprehensive productivity tool tailored for students moving to a new city for college or university. 
 Transitioning to a new environment can be overwhelming, especially when juggling academics, social life, and daily tasks. 
 TransiTask is here to simplify your life, helping you stay organized, manage your time, and settle into your new city with ease.
