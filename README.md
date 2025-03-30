@@ -39,16 +39,23 @@ Perfect for students with vehicles who need help finding reliable fuel stations 
 **How TransiTask Helps New Students Navigate a New City**
 
 **Finding Essentials** - The app helps you locate groceries, gas stations, and other must-visit places, making it easier to settle into a new city.
+
 **Meal Planning and Errands** - With the grocery list feature, students can plan meals and shop effectively, saving time and avoiding stress.
+
 **Integrating Schedules** - By syncing with Google Calendar, students can consolidate academic, personal, and social commitments in one place for easy reference.
+
 **Stress-Free Adjustments** - TransiTask reduces the anxiety of adapting to a new city by organizing tasks, helping students feel confident and in control.
 
 **Technologies Used**
 
 **Javascript** - The primary programming language used.
+
 **React** - Front-end library for building a dynamic user interface.
+
 **Google OAuth** - For secure integration with Google Calendar.
+
 **CSS** - For styling the application and maintaining a cohesive visual theme.
+
 **HTML** - For the structure and layout of web pages.
 
 **Installation**
